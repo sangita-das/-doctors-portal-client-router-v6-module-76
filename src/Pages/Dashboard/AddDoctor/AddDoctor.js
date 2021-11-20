@@ -21,7 +21,7 @@ const handleSubmit = e => {
     formData.append('email', email);
     formData.append('image', image);
 
-    fetch('https://pure-plateau-65792.herokuapp.com/doctors', {
+    fetch('http://localhost:5000/doctors', {
   method: 'POST',
   body: formData
 })

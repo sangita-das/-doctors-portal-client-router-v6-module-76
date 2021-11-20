@@ -12,14 +12,16 @@ const stripePromise = loadStripe('pk_test_51JvxRNJqybLKBRzKfb3u05f9uxyf4Ln98d8h7
 const Payment = () => {
   const { appointmentId } = useParams();
   const [appointment, setAppointment] = useState({});
+  console.log(appointmentId)
   useEffect(() => {
-    fetch(`https://pure-plateau-65792.herokuapp.com/appointments/${appointmentId}`)
+    fetch(`http://localhost:5000/appointments/${appointmentId}`)
       .then(res => res.json())
       .then(data => setAppointment(data));
   }, [appointmentId])
 
   return (
     <div>
+      <h2>This is payment page</h2>
       <h2>please pay for:{appointmentId} </h2>
       <h2>Please Pay for: {appointment.patientName} for {appointment.serviceName}</h2>
       <h4>Pay: ${appointment.price}</h4>
@@ -40,7 +42,7 @@ export default Payment;
 
 
 /*
-below steps are following for payment sysyem
+below steps are following for payment system
 1. install stripe and stripe-react
 2. set publishable key
 3. Elements

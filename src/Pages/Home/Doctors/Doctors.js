@@ -7,7 +7,7 @@ const Doctors = () => {
 
 
   useEffect( () =>{
-    fetch('https://pure-plateau-65792.herokuapp.com/doctors')
+    fetch('http://localhost:5000/doctors')
     .then(res =>res.json())
     .then(data => setDoctors(data))
   } ,[])

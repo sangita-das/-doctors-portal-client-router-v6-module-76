@@ -44,7 +44,7 @@ const BookingModal = ({ openBooking, handleBookingClose, booking, date, setBooki
             date: date.toLocaleDateString()
         }
         // send to the server
-        fetch('https://pure-plateau-65792.herokuapp.com/appointments', {
+        fetch('http://localhost:5000/appointments', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

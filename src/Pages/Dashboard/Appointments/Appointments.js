@@ -14,14 +14,18 @@ const Appointments = ({ date }) => {
     const [appointments, setAppointments] = useState([])
 
     useEffect(() => {
-        const url = `https://pure-plateau-65792.herokuapp.com/appointments?email=${user.email}&date=${date.toLocaleDateString()}`
+        const url = `http://localhost:5000/appointments?email=${user.email}&date=${date.toLocaleDateString()}`
         fetch(url, {
             headers: {
                 'authorization': `Bearer ${token}`
             }
         })
             .then(res => res.json())
-            .then(data => setAppointments(data));
+            .then(data =>{
+                setAppointments(data)
+                console.log(data)
+            }
+                 );
     }, [date, user.email, token])
 
     return (
@@ -50,7 +54,7 @@ const Appointments = ({ date }) => {
                                 <TableCell align="right">{row.serviceName}</TableCell>
                                 <TableCell align="right">{row.payment ?
                                     'Paid' :
-                                    <Link to={`dashboard/payment/${row._id}`}><button>Pay</button></Link>
+                                    <Link to={`/dashboard/payment/${row._id}`}><button>Pay</button></Link>
                                 }</TableCell>
                             </TableRow>
                         ))}

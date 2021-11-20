@@ -1,13 +1,13 @@
-[debug] [2021-11-19T07:21:35.742Z] ----------------------------------------------------------------------
-[debug] [2021-11-19T07:21:35.744Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-11-19T07:21:35.744Z] CLI Version:   9.23.0
-[debug] [2021-11-19T07:21:35.745Z] Platform:      win32
-[debug] [2021-11-19T07:21:35.745Z] Node Version:  v14.17.1
-[debug] [2021-11-19T07:21:35.745Z] Time:          Fri Nov 19 2021 13:21:35 GMT+0600 (Bangladesh Standard Time)
-[debug] [2021-11-19T07:21:35.746Z] ----------------------------------------------------------------------
+[debug] [2021-11-19T07:26:09.975Z] ----------------------------------------------------------------------
+[debug] [2021-11-19T07:26:09.977Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-19T07:26:09.977Z] CLI Version:   9.23.0
+[debug] [2021-11-19T07:26:09.977Z] Platform:      win32
+[debug] [2021-11-19T07:26:09.978Z] Node Version:  v14.17.1
+[debug] [2021-11-19T07:26:09.979Z] Time:          Fri Nov 19 2021 13:26:09 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-19T07:26:09.979Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-11-19T07:21:35.794Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-11-19T07:21:35.794Z] > authorizing via signed-in user (sangitabd5588@gmail.com)
+[debug] [2021-11-19T07:26:10.049Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-19T07:26:10.049Z] > authorizing via signed-in user (sangitabd5588@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -31,15 +31,11 @@ Before we get started, keep in mind:
 [info] but for now we'll just set up a default project.
 [info] 
 [info] i  .firebaserc already has a default project, using doctors-portal-dc289. 
-[debug] [2021-11-19T07:21:50.476Z] > refreshing access token with scopes: []
-[debug] [2021-11-19T07:21:50.476Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2021-11-19T07:21:50.752Z] <<< HTTP RESPONSE 200 {"date":"Fri, 19 Nov 2021 07:21:49 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-11-19T07:21:51.303Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 [none]
-[debug] [2021-11-19T07:21:52.133Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 403
-[debug] [2021-11-19T07:21:52.133Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2021-11-19T07:21:52.134Z] HTTP Error: 403, The caller does not have permission
-[debug] [2021-11-19T07:21:52.345Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-19T07:26:23.601Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 [none]
+[debug] [2021-11-19T07:26:24.224Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 403
+[debug] [2021-11-19T07:26:24.225Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-19T07:26:24.225Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-19T07:26:24.489Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at module.exports (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
     at Client.doRequest (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
     at processTicksAndRejections (internal/process/task_queues.js:95:5)
@@ -49,16 +45,16 @@ Before we get started, keep in mind:
     at async init (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
 [error] 
 [error] Error: Failed to get Firebase project doctors-portal-dc289. Please make sure the project exists and your account has permission to access it.
-[debug] [2021-11-19T07:22:09.440Z] ----------------------------------------------------------------------
-[debug] [2021-11-19T07:22:09.442Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-11-19T07:22:09.442Z] CLI Version:   9.23.0
-[debug] [2021-11-19T07:22:09.443Z] Platform:      win32
-[debug] [2021-11-19T07:22:09.443Z] Node Version:  v14.17.1
-[debug] [2021-11-19T07:22:09.654Z] Time:          Fri Nov 19 2021 13:22:09 GMT+0600 (Bangladesh Standard Time)
-[debug] [2021-11-19T07:22:09.654Z] ----------------------------------------------------------------------
+[debug] [2021-11-19T07:26:37.589Z] ----------------------------------------------------------------------
+[debug] [2021-11-19T07:26:37.591Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-19T07:26:37.592Z] CLI Version:   9.23.0
+[debug] [2021-11-19T07:26:37.592Z] Platform:      win32
+[debug] [2021-11-19T07:26:37.592Z] Node Version:  v14.17.1
+[debug] [2021-11-19T07:26:37.593Z] Time:          Fri Nov 19 2021 13:26:37 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-19T07:26:37.593Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-11-19T07:22:09.707Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-11-19T07:22:09.707Z] > authorizing via signed-in user (sangitabd5588@gmail.com)
+[debug] [2021-11-19T07:26:37.645Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-19T07:26:37.646Z] > authorizing via signed-in user (sangitabd5588@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -82,11 +78,11 @@ Before we get started, keep in mind:
 [info] but for now we'll just set up a default project.
 [info] 
 [info] i  .firebaserc already has a default project, using doctors-portal-dc289. 
-[debug] [2021-11-19T07:22:17.944Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 [none]
-[debug] [2021-11-19T07:22:18.454Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 403
-[debug] [2021-11-19T07:22:18.454Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2021-11-19T07:22:18.454Z] HTTP Error: 403, The caller does not have permission
-[debug] [2021-11-19T07:22:18.663Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-19T07:26:47.850Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 [none]
+[debug] [2021-11-19T07:26:48.443Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 403
+[debug] [2021-11-19T07:26:48.443Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-19T07:26:48.444Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-19T07:26:48.680Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at module.exports (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
     at Client.doRequest (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
     at processTicksAndRejections (internal/process/task_queues.js:95:5)
@@ -96,37 +92,37 @@ Before we get started, keep in mind:
     at async init (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
 [error] 
 [error] Error: Failed to get Firebase project doctors-portal-dc289. Please make sure the project exists and your account has permission to access it.
-[debug] [2021-11-19T07:22:39.978Z] ----------------------------------------------------------------------
-[debug] [2021-11-19T07:22:39.982Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2021-11-19T07:22:39.983Z] CLI Version:   9.23.0
-[debug] [2021-11-19T07:22:39.983Z] Platform:      win32
-[debug] [2021-11-19T07:22:39.983Z] Node Version:  v14.17.1
-[debug] [2021-11-19T07:22:39.984Z] Time:          Fri Nov 19 2021 13:22:39 GMT+0600 (Bangladesh Standard Time)
-[debug] [2021-11-19T07:22:39.984Z] ----------------------------------------------------------------------
+[debug] [2021-11-19T07:53:36.911Z] ----------------------------------------------------------------------
+[debug] [2021-11-19T07:53:36.915Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-11-19T07:53:36.915Z] CLI Version:   9.23.0
+[debug] [2021-11-19T07:53:36.916Z] Platform:      win32
+[debug] [2021-11-19T07:53:36.916Z] Node Version:  v14.17.1
+[debug] [2021-11-19T07:53:36.917Z] Time:          Fri Nov 19 2021 13:53:36 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-19T07:53:36.917Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-11-19T07:22:40.033Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-11-19T07:22:40.033Z] > authorizing via signed-in user (sangitabd5588@gmail.com)
-[debug] [2021-11-19T07:22:40.033Z] [iam] checking project doctors-portal-dc289 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2021-11-19T07:22:40.035Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2021-11-19T07:22:40.035Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2021-11-19T07:53:37.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-19T07:53:37.037Z] > authorizing via signed-in user (sangitabd5588@gmail.com)
+[debug] [2021-11-19T07:53:37.037Z] [iam] checking project doctors-portal-dc289 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-19T07:53:37.039Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-19T07:53:37.039Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2021-11-19T07:22:40.276Z] <<< HTTP RESPONSE 200 {"date":"Fri, 19 Nov 2021 07:22:39 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-11-19T07:22:41.021Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/doctors-portal-dc289:testIamPermissions  
+[debug] [2021-11-19T07:53:37.411Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 19 Nov 2021 07:53:36 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-19T07:53:37.939Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/doctors-portal-dc289:testIamPermissions  
  {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2021-11-19T07:22:42.458Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 19 Nov 2021 07:22:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1051","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-11-19T07:22:42.461Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project doctors-portal-dc289:
+[debug] [2021-11-19T07:53:39.254Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 19 Nov 2021 07:53:38 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1048","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-19T07:53:39.256Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project doctors-portal-dc289:
 
   firebase.projects.get
   firebasehosting.sites.update
-[debug] [2021-11-19T07:22:42.462Z] > refreshing access token with scopes: []
-[debug] [2021-11-19T07:22:42.462Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2021-11-19T07:53:39.258Z] > refreshing access token with scopes: []
+[debug] [2021-11-19T07:53:39.259Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2021-11-19T07:22:42.672Z] <<< HTTP RESPONSE 200 {"date":"Fri, 19 Nov 2021 07:22:41 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-11-19T07:22:42.836Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 [none]
-[debug] [2021-11-19T07:22:43.321Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 403
-[debug] [2021-11-19T07:22:43.321Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2021-11-19T07:22:43.322Z] HTTP Error: 403, The caller does not have permission
-[debug] [2021-11-19T07:22:43.520Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-19T07:53:39.663Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Fri, 19 Nov 2021 07:53:38 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-19T07:53:40.368Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 [none]
+[debug] [2021-11-19T07:53:40.923Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 403
+[debug] [2021-11-19T07:53:40.923Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-19T07:53:40.924Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-19T07:53:41.168Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at module.exports (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
     at Client.doRequest (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
     at processTicksAndRejections (internal/process/task_queues.js:95:5)
@@ -136,5 +132,99 @@ Before we get started, keep in mind:
     at async requireHostingSite (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
     at async Object.fn (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:73:9)
     at async C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
+[error] 
+[error] Error: Failed to get Firebase project doctors-portal-dc289. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-11-19T07:54:12.451Z] ----------------------------------------------------------------------
+[debug] [2021-11-19T07:54:12.453Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-19T07:54:12.453Z] CLI Version:   9.23.0
+[debug] [2021-11-19T07:54:12.453Z] Platform:      win32
+[debug] [2021-11-19T07:54:12.453Z] Node Version:  v14.17.1
+[debug] [2021-11-19T07:54:12.454Z] Time:          Fri Nov 19 2021 13:54:12 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-19T07:54:12.454Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-19T07:54:12.503Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-19T07:54:12.503Z] > authorizing via signed-in user (sangitabd5588@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  G:\web development course jhankar mahabub vai\react project from 51 module\doctors-portal-client-module-76-5
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using doctors-portal-dc289. 
+[debug] [2021-11-19T07:54:24.705Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 [none]
+[debug] [2021-11-19T07:54:25.283Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 403
+[debug] [2021-11-19T07:54:25.283Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-19T07:54:25.283Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-19T07:54:25.492Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project doctors-portal-dc289. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-11-19T07:55:53.888Z] ----------------------------------------------------------------------
+[debug] [2021-11-19T07:55:53.890Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-19T07:55:53.890Z] CLI Version:   9.23.0
+[debug] [2021-11-19T07:55:53.890Z] Platform:      win32
+[debug] [2021-11-19T07:55:53.890Z] Node Version:  v14.17.1
+[debug] [2021-11-19T07:55:53.891Z] Time:          Fri Nov 19 2021 13:55:53 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-19T07:55:53.891Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-19T07:55:53.943Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-19T07:55:53.944Z] > authorizing via signed-in user (sangitabd5588@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  G:\web development course jhankar mahabub vai\react project from 51 module\doctors-portal-client-module-76-5
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using doctors-portal-dc289. 
+[debug] [2021-11-19T07:56:01.327Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 [none]
+[debug] [2021-11-19T07:56:02.029Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 403
+[debug] [2021-11-19T07:56:02.029Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-dc289 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-19T07:56:02.029Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-19T07:56:02.313Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\Eshita\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
 [error] 
 [error] Error: Failed to get Firebase project doctors-portal-dc289. Please make sure the project exists and your account has permission to access it.

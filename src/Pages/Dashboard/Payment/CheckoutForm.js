@@ -18,7 +18,7 @@ const Checkoutform = ({ appointment }) => {
 
 
   useEffect(() => {
-    fetch('https://pure-plateau-65792.herokuapp.com/create-payment-intent', {
+    fetch('http://localhost:5000/create-payment-intent', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
